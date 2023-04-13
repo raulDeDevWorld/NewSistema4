@@ -1,0 +1,145 @@
+
+ .container {
+    box-sizing: border-box;
+    position: absolute;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+    overflow-x: hidden;
+  
+  }
+
+  .main {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+  }
+  
+  .title {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .subtitle {
+    color: white;
+    text-align: center;
+  }
+  
+  .list {
+    position: relative;
+    min-height: 380px;
+    height: auto;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  
+    padding: 15px;
+    color: white;
+    text-align: left;
+    border: 1px solid #00B2BD;
+    border-radius: 10px;
+    background-color: #294B98;
+
+  }
+  
+  .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .link {
+    text-decoration: none;
+    color: white;
+    word-break: break-all;
+  width: 60%;
+  }
+  
+  .logout {
+    position: fixed;
+    bottom: 35px;
+  
+    cursor: pointer;
+    font-size: 14px;
+  
+    width: 180px;
+    margin-top: 10px;
+    padding: 10px 1px;
+    border-radius: 10px;
+  
+    transition-duration: .5s;
+    color: white;
+    background-color: #00B2BD;
+    border: 1px solid white;
+  }
+  
+  .logout:hover {
+    color: #003450;
+    background-color: white;
+    border: 1px solid #024164;
+  }
+  
+  .add {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 40px;
+    background-color: #00B2BD;
+    border: 1px solid #ffffff;
+    transition-duration: .5s;
+  }
+  
+  .add:hover {
+    color: #003450;
+    background-color: white;
+    border: 1px solid #024164;
+  }
+  
+  .papelera {
+    color: rgb(144, 144, 144);
+    word-break: break-all;
+    width: 60%;
+  
+  }
+  
+  .rol {
+    cursor: pointer;
+    display: block;
+    width: 60px;
+    text-align: center;
+    margin-right: 10px;
+    color: white
+  }
+  
+  .filter {
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    width: 180px;
+    margin-top: 10px;
+    padding: 10px 1px;
+    border-radius: 5px;
+
+    background-color: transparent;
+  
+    transition-duration: .5s;
+  }
